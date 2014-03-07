@@ -25,4 +25,4 @@ io.sockets.on('connection', function(socket){
 		io.sockets.emit('message', data);
 	});
 });
-console.log("listeing on port 3000, bizatch")
+console.log("listeing on port 3000")

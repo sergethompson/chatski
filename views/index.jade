@@ -1,0 +1,13 @@
+extends layout
+
+block content
+
+  .container
+    h1 Proc/Lambda Chat
+    #content
+    form.controls
+      | Name: 
+      input(type="text", class="form-control", id="name")
+      | Message:
+      input(type="text", class="form-control", id="message")
+      input(type='button', value='send', class="btn btn-primary", id="send")

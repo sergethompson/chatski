@@ -1,0 +1,13 @@
+doctype !!!
+html
+  head
+    title= "Real time web chat"
+    link(rel="stylesheet", href="/main.css")
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+
+  body
+    block content
+
+    script(src='/main.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
