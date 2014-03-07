@@ -1,0 +1,11 @@
+{
+  "name": "socket_app",
+  "version": "0.0.1",
+  "description": "Websocket application",
+  "main": "server.js",
+  "dependencies": {
+      "socket.io":"latest",
+      "express": "latest",
+      "jade": "latest"
+  }
+}
